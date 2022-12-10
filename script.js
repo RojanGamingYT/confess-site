@@ -13,7 +13,7 @@ function send () {
   if (!link) {
     new Noty({
       type: 'error',
-      text: `Provide a valid webhook link`,
+      text: `Provide a valid link`,
       timeout: 3000,
       animation: {
         open: function (promise) {
@@ -80,7 +80,7 @@ function send () {
   if (!message) {
     new Noty({
       type: 'error',
-      text: `Provide a webhook message`,
+      text: `Provide a message`,
       animation: {
         open: function (promise) {
           var n = this
@@ -222,7 +222,7 @@ function send () {
     .done(function (response) {
       new Noty({
         type: 'success',
-        text: `Successfully sent webhook in ${Date.now() - date}ms`,
+        text: `Successfully sent in ${Date.now() - date}ms`,
         timeout: 400,
         animation: {
           open: function (promise) {
