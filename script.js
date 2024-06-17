@@ -5,7 +5,7 @@ function toggle () {
 
 function send () {
   const date = Date.now()
-  const link = "https://discord.com/api/webhooks/1116380965355405374/JwvKENLrCz3DkMh5TkJQcOvmNrF8vIfamAryAqrpb-E9e10eILSuMV72WamdVa7F0Did"
+  const link = ""
   const name = document.getElementById('name').value
   const avatar = "https://th.bing.com/th/id/OIP.iZywMxDDGbbr_zxkfQ6v5QHaEK?pid=ImgDet&rs=1"
   var message = document.getElementById('message').value
